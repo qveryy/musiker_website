@@ -100,7 +100,7 @@ nav a:hover:after {
 }
 
 .home img {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -281,7 +281,13 @@ footer p {
 
   .main {
     margin: 0;
-    text-align: center;
+  }
+  
+  .home img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .skills {
