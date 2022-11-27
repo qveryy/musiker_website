@@ -243,7 +243,7 @@ nav a:hover:after {
 
 .contact-socialicon {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -280,14 +280,8 @@ footer p {
   }
 
   .main {
-    margin: 0;
-  }
-  
-  .home img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 0;
+    margin-right: 50px;
   }
 
   .skills {
