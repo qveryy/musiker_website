@@ -5,9 +5,14 @@ html {
 
 html,
 header,
-nav,
-ul,
-body,
+body {
+  background-color:rgb(200, 58, 58);
+  background-image: url("https://i.ibb.co/YWySZW8/IMG-2832.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+}
 img,
 p,
 div,
@@ -35,7 +40,7 @@ h1 {
 nav {
   position: fixed;
   overflow: hidden;
-  background: #565656;
+  background: #5e2028;
   -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
@@ -66,9 +71,11 @@ nav ul {
   line-height: 50px;
   font-size: 20px;
 
-  width: 100%;
-  background-color: #9E9E9E;
+  width: 85%;
+  background-color: #8a303c;
   border-radius: 20px;
+  list-style-type: none;
+  text-align: center;
 }
 li {
   color: #000;
@@ -97,6 +104,7 @@ nav a:hover:after {
   text-align: center;
   margin-bottom: 50px;
   margin-left: 50px;
+  color: white;
 }
 
 .home img {
@@ -111,6 +119,7 @@ nav a:hover:after {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
+  color: white;
 }
 
 .nameabout {
@@ -120,6 +129,7 @@ nav a:hover:after {
   margin-right: 50px;
   margin-left: 50px;
   font-size: 20px;
+  color: white;
 }
 
 .socialicon img {
@@ -133,6 +143,7 @@ nav a:hover:after {
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
+  color: white;
 }
 
 .skills {
@@ -200,30 +211,37 @@ nav a:hover:after {
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
+  color: white;
 }
 
 .service-details div {
   width: 70%;
   height: 120px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .service-details div img {
   margin-top: 10px;
+  margin-right: 10px;
   width: 100px;
   height: 100px;
   float: left;
+  color: white;
+  border-radius: 50%;
 }
 
 .service-details h3 {
   font-family: "Titillium Web", sans-serif;
   font-size: 26px;
+  color: white;
 }
 
 .service-details p {
   font-size: 20px;
   margin-right: 10px;
   font-family: "Varela Round", sans-serif;
+  color: white;
 }
 
 .blog {
@@ -239,12 +257,18 @@ nav a:hover:after {
 
 .contact {
   margin-left: 50px;
+  color: white;
 }
 
 .contact-socialicon {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 20px;
+  color: white;
+}
+
+.fa-whatsapp {
+  color: #25D366;
 }
 
 /* /////////////////////footer///////////////////////////////// */
@@ -255,6 +279,7 @@ footer p {
   margin-right: 20px;
   margin-top: 200px;
   text-align: right;
+  color: white;
 }
 
 /* //////////////////////////////////////////////////////////////////////// */
